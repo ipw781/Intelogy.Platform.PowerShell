@@ -1,2 +1,3 @@
 Write-Host "Hello World"
-Write-Host $env:COMPUTERNAME
+Write-Host Get-Content $env:COMPUTERNAME
+Write-Host "Update"
